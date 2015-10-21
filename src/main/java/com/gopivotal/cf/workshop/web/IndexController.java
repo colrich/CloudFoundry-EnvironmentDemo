@@ -39,7 +39,7 @@ public class IndexController {
 	 * @throws JsonMappingException 
 	 * @throws JsonParseException 
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public String index(Model model) throws Exception {
 			
 		Date date = new Date();
